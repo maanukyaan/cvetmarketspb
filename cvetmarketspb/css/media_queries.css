@@ -1,0 +1,785 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-height : 100px) and (max-height : 540px) {
+    .container-1 {
+        height: 660px;
+    }
+
+    .logo-img-div {
+        bottom: 40%;
+    }
+
+    .container-1-text {
+        line-height: 63px;
+        margin: 0 auto;
+        top: 85px;
+    }
+
+    .container-1-text-1 {
+        letter-spacing: 9px;
+    }
+
+    .container-1-text-2 {
+        font-size: 50px;
+        letter-spacing: 9px;
+    }
+
+    .container-1-telephone {
+        width: 105%;
+        top: 196px;
+    }
+
+    .social-medias ul {
+        display: flex;
+        position: relative;
+        top: 249px;
+    }
+}
+
+@media only screen and (min-height : 541px) and (max-height : 600px) {
+
+    .logo-img-div {
+        bottom: 95%;
+    }
+
+
+    .container-1 {
+        height: 780px;
+    }
+
+
+    .container-1-telephone {
+        width: 105%;
+        top: 90px;
+    }
+
+    .container-1-text {
+        line-height: 65px;
+        margin: 0 auto;
+        top: 25px;
+    }
+
+}
+
+@media only screen and (min-width : 10px) and (max-width : 388px) {
+
+    .container-1>div {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    .container-1-content {
+        width: 90%;
+        height: 40%;
+    }
+
+
+    .logo-img {
+        max-width: 100%;
+    }
+
+    .container-1-text-1 {
+        font-size: 55px;
+    }
+
+    .container-1-text-2 {
+        font-size: 55px;
+        letter-spacing: 10px;
+    }
+
+    .container-1-footer-1 {
+        height: 335px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .container-1-footer-1 ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 35px;
+    }
+
+    .container-1-footer-1 ul li {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .telephone-a {
+        text-align: center;
+        transition: 0.3s color ease-out;
+        font-size: 40px;
+    }
+
+    .fa-instagram,
+    .fa-envelope {
+        font-size: 45px;
+        position: relative;
+        bottom: 70%;
+    }
+
+    .tulip-div {
+        bottom: 0px;
+    }
+
+    .truck-div {
+        bottom: 0px;
+    }
+
+    .truck-div img {
+        left: 0px;
+    }
+
+    .container-1-footer-2 {
+        display: none;
+    }
+
+    .container-1-footer-3 {
+        margin: 0;
+        height: 440px;
+    }
+
+    .container-6 .container-1-footer-3 {
+        margin: 7px 0 0 0;
+        background-color: var(--green-color);
+    }
+
+    .container-6-main-ul {
+        display: inline-block;
+        list-style-type: disc;
+        column-count: 2;
+        list-style-position: inside;
+    }
+
+    .container-6-li-div {
+        width: 134px;
+        height: 293px;
+        border: 4px solid rgba(26, 218, 100, 0.781);
+    }
+
+    .container-6-main-ul>ul:last-child li:last-child {
+        display: none;
+    }
+
+    .container-6-main-ul ul li {
+        margin: 20px 2px;
+    }
+
+    .container-6-li-div img {
+        height: 135px;
+    }
+
+    .container-1-footer-3 ul li {
+        max-width: 350px;
+    }
+
+    .container-2 {
+        display: none;
+    }
+
+    .container-3 {
+        margin-top: 670px;
+        height: 1830px;
+    }
+
+    .container-3-div {
+        flex-direction: column;
+        height: 400px;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .container-3-text-ul {
+        left: 0;
+    }
+
+    .container-3-img-ul {
+        right: 0;
+        margin: 10px 0;
+    }
+
+    .container-3-img-div img {
+        width: 100px;
+    }
+
+    .hr-div {
+        height: .9px;
+    }
+
+    .container-4 {
+        height: calc(800px + 23%);
+    }
+
+    .container-5 .bn3 {
+        margin: 74px 0 0 0;
+    }
+
+    .bn3:nth-child(3) {
+        padding: 0.45em 1.2em;
+    }
+
+    .container-6-li-div p {
+        font-size: 20px;
+    }
+
+    .container-4-text-ul {
+        right: 0;
+        text-align: center;
+    }
+
+
+    .container-4-text-ul p {
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .tulip-image-div {
+        left: 33.33%;
+        bottom: 0;
+        margin-top: 150px;
+        width: 400px;
+    }
+
+    .tulip-image-div p {
+        right: 240px;
+    }
+
+    .container-4 h1 {
+        top: 35px;
+    }
+
+    .container-4-text-ul {
+        top: 60px;
+    }
+
+    .container-6 {
+        height: 3530px;
+    }
+
+    .container-6 h1 {
+        top: 60px;
+    }
+
+    #whisperingP {
+        font-size: 22px;
+    }
+
+    .border-image-div-mobile {
+        display: inline-block;
+        bottom: 398px;
+    }
+
+    .border-image-div-mobile-down {
+        bottom: 374px;
+    }
+
+    .container-6-li-div a {
+        top: 38px;
+    }
+
+    .container-5 {
+        height: 750px;
+    }
+
+    .container-5 ul {
+        flex-direction: column;
+        position: relative;
+        top: 30px;
+    }
+
+    .container-5 ul li {
+        margin: 5px 0;
+    }
+
+    #percentDiv,
+    #likeDiv,
+    #tulipDiv {
+        position: relative;
+        top: 10px;
+    }
+
+    #tulipDiv {
+        top: 0px;
+    }
+
+    #container-5-p {
+        position: relative;
+        bottom: 5px;
+    }
+
+    #li1,
+    #li2 {
+
+        right: 0;
+    }
+
+    #li3,
+    #li4,
+    #li5 {
+        left: 0;
+    }
+
+    .footer-img {
+        display: none;
+    }
+
+    .container-6-main-ul ul {
+        flex-direction: column;
+    }
+
+    #prices {
+        width: 100%;
+        height: 500px;
+    }
+
+    .prices-div {
+        width: 100%;
+        height: 400px;
+        font-size: 25px;
+    }
+
+    .prices-div h2 {
+        font-size: 40px;
+    }
+
+    .border-image-div-mobile {
+        display: inline-block;
+    }
+
+    .border-image-div-mobile-down {
+        display: inline-block;
+    }
+
+    .border-image-div {
+        display: none;
+    }
+
+    .border-image {
+        display: none;
+    }
+
+    .container-7 {
+        margin-top: 11603px;
+    }
+
+
+    .container-7-main-ul {
+        margin: 70px;
+    }
+
+    .container-7-main-ul ul {
+        flex-direction: column;
+    }
+
+    .container-7-main-ul li ul {
+        margin: 0;
+    }
+
+    .container-7-main-ul li ul li {
+        max-width: 700px;
+        margin: 15px 0;
+    }
+
+    .container-7-main-ul li ul li::before {
+        content: "— ";
+    }
+
+    .container-7 img {
+        display: none;
+    }
+
+    .container-8 {
+        height: 330px;
+    }
+
+    .container-8 p {
+        text-align: center;
+        max-width: 600px;
+        margin: 3px 10px;
+    }
+
+    footer {
+        margin-top: 700px;
+    }
+
+    .container-5 .bn3 {
+        margin: 15px 0 0 0;
+    }
+
+    footer {
+        margin-top: 370px;
+    }
+}
+
+@media only screen and (min-width : 390px) and (max-width : 1000px) {
+
+    .container-1 {
+        height: 780px;
+    }
+
+    .container-1-content {
+        width: 90%;
+        height: 40%;
+    }
+
+    .logo-img-div {
+        bottom: 95%;
+    }
+
+    .logo-img {
+        width: 340px;
+    }
+
+    .container-1-text {
+        line-height: 65px;
+        margin: 0 auto;
+        top: 25px;
+    }
+
+    .container-1-text-1 {
+        font-size: 55px;
+    }
+
+    .container-1-text-2 {
+        font-size: 55px;
+        letter-spacing: 10px;
+    }
+
+    .container-1-footer-1 {
+        height: 335px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .container-1-footer-1 ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 35px;
+    }
+
+    .container-1-footer-1 ul li {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .container-1-telephone {
+        width: 105%;
+        top: 90px;
+    }
+
+    .telephone-a {
+        text-align: center;
+        transition: 0.3s color ease-out;
+        font-size: 40px;
+    }
+
+    .fa-instagram,
+    .fa-envelope {
+        font-size: 45px;
+        position: relative;
+        bottom: 70%;
+    }
+
+    .tulip-div {
+        bottom: 0px;
+    }
+
+    .truck-div {
+        bottom: 0px;
+    }
+
+    .truck-div img {
+        left: 0px;
+    }
+
+    .container-1-footer-2 {
+        display: none;
+    }
+
+    .container-1-footer-3 {
+        margin: 0;
+        height: 440px;
+    }
+
+    .container-6 .container-1-footer-3 {
+        margin: 7px 0 0 0;
+        background-color: var(--green-color);
+    }
+
+    .container-6-main-ul {
+        display: inline-block;
+        list-style-type: disc;
+        column-count: 2;
+        list-style-position: inside;
+    }
+
+    .container-6-li-div {
+        width: 177px;
+        height: 329px;
+        border: 4px solid rgba(26, 218, 100, 0.781);
+    }
+
+    .container-6-main-ul>ul:last-child li:last-child {
+        display: none;
+    }
+
+    .container-6-main-ul ul li {
+        margin: 20px 2px;
+    }
+
+    .container-6-li-div img {
+        height: 162px;
+    }
+
+    .container-1-footer-3 ul li {
+        max-width: 350px;
+    }
+
+    .container-2 {
+        display: none;
+    }
+
+    .container-3 {
+        margin-top: 670px;
+        height: 1830px;
+    }
+
+    .container-3-div {
+        flex-direction: column;
+        height: 400px;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .container-3-text-ul {
+        left: 0;
+    }
+
+    .container-3-img-ul {
+        right: 0;
+        margin: 10px 0;
+    }
+
+    .container-3-img-div img {
+        width: 100px;
+    }
+
+    .hr-div {
+        height: .9px;
+    }
+
+    .container-4 {
+        height: calc(800px + 23%);
+    }
+
+    .container-5 .bn3 {
+        margin: 74px 0 0 0;
+    }
+
+    .container-4-text-ul {
+        right: 0;
+        text-align: center;
+    }
+
+
+    .container-4-text-ul p {
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .tulip-image-div {
+        left: 33.33%;
+        bottom: 0;
+        margin-top: 150px;
+        width: 400px;
+    }
+
+    .tulip-image-div p {
+        right: 240px;
+    }
+
+    .container-4 h1 {
+        top: 35px;
+    }
+
+    .container-4-text-ul {
+        top: 60px;
+    }
+
+    .container-6 {
+        height: 3660px;
+    }
+
+    .container-6 h1 {
+        top: 60px;
+    }
+
+    #whisperingP {
+        font-size: 22px;
+    }
+
+    .border-image-div-mobile {
+        display: inline-block;
+        bottom: 398px;
+    }
+
+    .border-image-div-mobile-down {
+        bottom: 374px;
+    }
+
+    .container-6-li-div a {
+        top: 38px;
+    }
+
+    .container-5 {
+        height: 700px;
+    }
+
+    .container-5 ul {
+        flex-direction: column;
+        position: relative;
+        top: 30px;
+    }
+
+    .container-5 ul li {
+        margin: 5px 0;
+    }
+
+    #percentDiv,
+    #likeDiv,
+    #tulipDiv {
+        position: relative;
+        top: 10px;
+    }
+
+    #tulipDiv {
+        top: 0px;
+    }
+
+    #container-5-p {
+        position: relative;
+        bottom: 5px;
+    }
+
+    #li1,
+    #li2 {
+
+        right: 0;
+    }
+
+    #li3,
+    #li4,
+    #li5 {
+        left: 0;
+    }
+
+    .footer-img {
+        display: none;
+    }
+
+    .container-6-main-ul ul {
+        flex-direction: column;
+    }
+
+    #prices {
+        width: 100%;
+        height: 500px;
+    }
+
+    .prices-div {
+        width: 100%;
+        height: 400px;
+        font-size: 25px;
+    }
+
+    .prices-div h2 {
+        font-size: 40px;
+    }
+
+    .border-image-div-mobile {
+        display: inline-block;
+    }
+
+    .border-image-div-mobile-down {
+        display: inline-block;
+    }
+
+    .border-image-div {
+        display: none;
+    }
+
+    .border-image {
+        display: none;
+    }
+
+    .container-7 {
+        margin-top: 11603px;
+    }
+
+
+    .container-7-main-ul {
+        margin: 70px;
+    }
+
+    .container-7-main-ul ul {
+        flex-direction: column;
+    }
+
+    .container-7-main-ul li ul {
+        margin: 0;
+    }
+
+    .container-7-main-ul li ul li {
+        max-width: 700px;
+        margin: 15px 0;
+    }
+
+    .container-7-main-ul li ul li::before {
+        content: "— ";
+    }
+
+    .container-7 img {
+        display: none;
+    }
+
+    .container-8 {
+        height: 330px;
+    }
+
+    .container-8 p {
+        text-align: center;
+        max-width: 600px;
+        margin: 3px 10px;
+    }
+
+    footer {
+        margin-top: 448px;
+    }
+}
+
+@media only screen and (min-height : 900px) and (max-height : 1400px) {
+    .logo-img-div {
+        bottom: 117%;
+    }
+
+    .container-1-text {
+        top: -100px;
+    }
+
+    .container-1-telephone {
+        top: -22%;
+    }
+
+    .social-medias ul {
+        top: -63px;
+    }
+}
+
+
+/* iPad */
+@media only screen and (min-width : 481px) and (max-width : 1146px) {
+    body {
+        display: grid;
+    }
+}
